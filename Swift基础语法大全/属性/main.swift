@@ -32,7 +32,7 @@ print("name = \(p.name) age = \(p.age)")
 struct Person2 {
     var name: String
     var age : Int
-    let card: String // ID Card
+    let card: String // 常量 ID Card
 }
 var p2 = Person2(name: "HaRi", age: 24, card: "1234")
 p2.name = "helloName"
@@ -89,7 +89,7 @@ class Line {
     lazy var container: Array<AnyObject> = {
         print("懒加载")
         
-        var arrrM:Array = [1,2,3]
+        var arrrM:Array<Int> = []
 //        return self.end - self.start   Error!
         return arrrM as [AnyObject]
     }()

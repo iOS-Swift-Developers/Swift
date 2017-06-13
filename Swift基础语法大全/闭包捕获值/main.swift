@@ -31,3 +31,4 @@ let incFunc2 = getIncFunc(inc: 5)
 print(incFunc2(5))
 
 
+

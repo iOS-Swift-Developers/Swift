@@ -20,6 +20,11 @@ import Foundation
  (参数) -> 返回值类型 in
  执行语句
  }
+ 
+ 一般形式：{
+ (parameters) -> returnType in
+ statements
+ }
  */
 
 // 完整写法
@@ -152,5 +157,125 @@ let hello = {
     "I'm XiaoHange"
 }
 print(hello())
+
+print("__________________________")
+
+
+/*
+ 自动闭包:
+ 顾名思义，自动闭包是一种自动创建的闭包，封装一堆表达式在自动闭包中，然后将自动闭包作为参数传给函数。而自动闭包是不接受任何参数的，但可以返回自动闭包中表达式产生的值。
+ 
+ 自动闭包让你能够延迟求值，直到调用这个闭包，闭包代码块才会被执行。说白了，就是语法简洁了，有点懒加载的意思。
+ */
+
+var array = ["1","100","hi","hello"]
+print(array.count) // 4
+
+let removeBlock = {array.remove(at: 3)}
+print(array.count) // 4
+
+print("执行代码块移除\(removeBlock())")
+print(array.count) // 3
+
+print("__________________________")
+
+
+
+/*
+ 逃逸闭包:
+ 当一个闭包作为参数传到一个函数中，需要这个闭包在函数返回之后才被执行，我们就称该闭包从函数种逃逸。一般如果闭包在函数体内涉及到异步操作，但函数却是很快就会执行完毕并返回的，闭包必须要逃逸掉，以便异步操作的回调。
+ 
+ 逃逸闭包一般用于异步函数的回调，比如网络请求成功的回调和失败的回调。语法：在函数的闭包行参前加关键字“@escaping”。
+ */
+
+//例1:
+func doSomething(some: @escaping() -> Void) {
+    //延时操作, 注意这里的单位是秒
+    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+       // 1s后操作
+       some()
+    }
+    print("函数体")
+}
+doSomething {
+    print("逃逸闭包")
+}
+
+//例2:
+var comletionHandle:() -> String = {"约吗?"}
+
+func doSomthing2(some: @escaping() -> String) {
+    comletionHandle = some
+}
+doSomthing2 { () -> String in
+    return "还是不约吧!"
+}
+print(comletionHandle())
+
+//将一个闭包标记为@escaping意味着你必须在闭包中显式的引用self。
+//其实@escaping和self都是在提醒你，这是一个逃逸闭包，
+//别误操作导致了循环引用！而非逃逸包可以隐式引用self。
+
+//例子如下:
+var completionHandlers: [() -> Void] = []
+//逃逸
+func someFuncionWithEscapingClosure(completionHandler: @escaping () -> Void)
+{
+    completionHandlers.append(completionHandler)
+}
+//非逃逸
+func someFunctionWithNonescapingCloure(cloure: () -> Void)
+{
+    cloure()
+}
+
+class SomeClass{
+    var x = 10
+    func doSomething()
+    {
+        someFuncionWithEscapingClosure {
+            self.x = 100
+        }
+        someFunctionWithNonescapingCloure {
+            x = 200
+        }
+    }
+}
+
+
+
+
+
+
+
+//补充对比:
+//=======================================================
+//一般形式
+let calAdd:(Int,Int)->(Int) = {
+    (a:Int,b:Int) -> Int in
+    return a + b
+}
+print(calAdd(100,150))
+
+//Swift可以根据闭包上下文推断参数和返回值的类型，所以上面的例子可以简化如下
+let calAdd2:(Int,Int)->(Int) = {
+    a,b in  //也可以写成(a,b) in
+    return a + b
+}
+print(calAdd2(150,100))
+//上面省略了返回箭头和参数及返回值类型，以及参数周围的括号。当然你也可以加括号，为了好看点，看的清楚点。(a,b)
+
+//单行表达式闭包可以隐式返回，如下，省略return
+let calAdd3:(Int,Int)->(Int) = {(a,b) in a + b}
+print(calAdd3(50,200))
+
+//如果闭包没有参数，可以直接省略“in”
+let calAdd4:()->Int = {return 100 + 150}
+print("....\(calAdd4())")
+
+//这个写法，我随便写的。打印出“我是250”
+//这个是既没有参数也没返回值，所以把return和in都省略了
+let calAdd5:()->Void = {print("我是250")}
+calAdd5()
 
 

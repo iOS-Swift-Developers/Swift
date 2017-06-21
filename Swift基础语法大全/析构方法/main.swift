@@ -36,7 +36,7 @@ class FileHandle {
         print("对象被销毁")
     }
 }
-var fh:FileHandle? = FileHandle(path: "/Users/hanjunqiang/Desktop/StudyEveryDay/H5/第一阶段/小说.html")
+var fh:FileHandle? = FileHandle(path: "/Users/hanjunqiang/Desktop/StudyEveryDay/H5/第一阶段/小说.html") //测试地址, 换成你自己路径地址文件即可
 fh = nil
 
 

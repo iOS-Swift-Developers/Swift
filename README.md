@@ -54,7 +54,7 @@ Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新
 
 ## Star
 
-![微信公众号](http://img.blog.csdn.net/20170217102843795)
+![微信公众号](http://blog26.com/images/wechatscan.gif)
 
 微信公众号每周推送新技术, [CSDN博客](http://blog.csdn.net/qq_31810357)欢迎关注交流!
  

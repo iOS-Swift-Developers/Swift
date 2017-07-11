@@ -331,4 +331,30 @@ print(person1) //name: ,age:9
 
 ////协议是swift非常重要的一部分,苹果甚至为了它单独出来——–面向协议编程,利用协议的优点和灵活性可以使整个项目结构更加灵活,拥有更加易于延展的架构.
 
+//// 协议的扩展补充  以下一般不会这么写, 因为没什么意义
+protocol ShareString {
+    func methodForOverride()
+    func methodWithoutOverride()
+}
+
+extension ShareString {
+    func methodForOverride(){
+        print("😋")
+    }
+    func methodWithoutOverride(){
+        print("======")
+        methodForOverride()
+        print("------")
+    }
+}
+extension String:ShareString {
+    func methodForOverride() {
+        print(self)
+    }
+}
+
+let hello:ShareString = "hello"
+hello.methodForOverride()
+hello.methodWithoutOverride()
+
 

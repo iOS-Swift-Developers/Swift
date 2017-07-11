@@ -40,20 +40,25 @@ Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新
 - 内存相关
 - 可选类型
 - 协议
+- 扩展
+- 泛型
 
-### (基础语法已完结)
+### 今日更新
+- 协议补充
+- 扩展
+- 泛型
 
 ## 更新中...
-基础语法补充: 协议
+基础语法补充: Swift 语法补充
 
 
 ## Star
 
-[CSDN博客](http://blog.csdn.net/qq_31810357)    
+![微信公众号](http://img.blog.csdn.net/20170217102843795)
 
-### iOS开发者交流群：446310206 一起来学习吧!
-
-喜欢就❤️❤️❤️star一下吧！你的支持是我更新的动力！ Love is every every every star! Your support is my renewed motivation!
+微信公众号每周推送新技术, [CSDN博客](http://blog.csdn.net/qq_31810357)欢迎关注交流!
+ 
+#### iOS开发者交流群：446310206 喜欢就❤️❤️❤️star一下吧！你的支持是我更新的动力！ 
 
 
 ## License

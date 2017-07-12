@@ -42,14 +42,15 @@ Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新
 - 协议
 - 扩展
 - 泛型
+- Swift语法补充
+- Swift4.0KVC和KVO
 
 ### 今日更新
-- 协议补充
-- 扩展
-- 泛型
+- Swift语法补充
+- Swift4.0KVC和KVO
 
 ## 更新中...
-基础语法补充: Swift 语法补充
+接下来开始解读 Swift项目之UIKit和Foundation相关框架!
 
 
 ## Star

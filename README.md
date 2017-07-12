@@ -33,16 +33,33 @@ Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新
 - 属性
 - 方法
 - 下标subscripts
+- 继承
+- 构造方法1
+- 构造方法2
+- 析构方法
+- 内存相关
+- 可选类型
+- 协议
+- 扩展
+- 泛型
+- Swift语法补充
+- Swift4.0KVC和KVO
+
+### 今日更新
+- Swift语法补充
+- Swift4.0KVC和KVO
 
 ## 更新中...
+接下来开始解读 Swift项目之UIKit和Foundation相关框架!
+
 
 ## Star
 
-[CSDN博客](http://blog.csdn.net/qq_31810357)    
+![微信公众号](http://blog26.com/images/wechatscan.gif)
 
-### iOS开发者交流群：446310206 一起来学习吧!
-
-喜欢就❤️❤️❤️star一下吧！你的支持是我更新的动力！ Love is every every every star! Your support is my renewed motivation!
+微信公众号每周推送新技术, [CSDN博客](http://blog.csdn.net/qq_31810357)欢迎关注交流!
+ 
+#### iOS开发者交流群：446310206 喜欢就❤️❤️❤️star一下吧！你的支持是我更新的动力！ 
 
 
 ## License

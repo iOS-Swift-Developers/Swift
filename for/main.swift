@@ -163,9 +163,31 @@ for i in 0...10 {
 print(rs)
 
 
+/* --- 2017.07.12 更新 */
+/* 0 ~ 50 的遍历 跨步 10
+ 此种方法相当于遍历开区间 0..<50, [0,50) 不会遍历最后一个数
+ 用法常见对数组的遍历，可防止数组取值越界
+ */
+for i in stride(from: 0, to: 50, by: 10) {
+    print("i = \(i)")
+}
 
+/* 0 ~ 20  的遍历 跨步 5
+ 此种方法相当于遍历 0..<50 [0,50] 闭区间 会遍历最后一个数
+ */
+for j in stride(from: 0, through: 20, by: 5) {
+    print("j = \(j)")
+}
 
-
+/*
+ 遍历元组 (实际跟遍历字典类似)
+ */
+let tupleArray = [("zhangShang",60,170.0),
+                  ("liSi",77,175.0),
+                  ("wangWu",80,180.0)]
+for t in tupleArray {
+    print("name : \(t.0), weight : \(t.1), height : \(t.2)")
+}
 
 
 

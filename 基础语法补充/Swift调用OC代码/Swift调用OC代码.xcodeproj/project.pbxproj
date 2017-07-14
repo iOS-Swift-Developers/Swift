@@ -14,6 +14,9 @@
 		47D421D91F171AFB005DEFF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D421D71F171AFB005DEFF0 /* LaunchScreen.storyboard */; };
 		47D421E41F171AFB005DEFF0 /* Swift__OC__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D421E31F171AFB005DEFF0 /* Swift__OC__Tests.swift */; };
 		47D421EF1F171AFB005DEFF0 /* Swift__OC__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D421EE1F171AFB005DEFF0 /* Swift__OC__UITests.swift */; };
+		47D421FF1F172111005DEFF0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D421FE1F172111005DEFF0 /* Person.m */; };
+		47D422021F17227C005DEFF0 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D422011F17227C005DEFF0 /* Phone.m */; };
+		47D422401F172395005DEFF0 /* readMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D4223F1F172395005DEFF0 /* readMe.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,12 @@
 		47D421EA1F171AFB005DEFF0 /* Swift调用OC代码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift调用OC代码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D421EE1F171AFB005DEFF0 /* Swift__OC__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift__OC__UITests.swift; sourceTree = "<group>"; };
 		47D421F01F171AFB005DEFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D421FC1F172111005DEFF0 /* Swift调用OC代码-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift调用OC代码-Bridging-Header.h"; sourceTree = "<group>"; };
+		47D421FD1F172111005DEFF0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		47D421FE1F172111005DEFF0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		47D422001F17227C005DEFF0 /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		47D422011F17227C005DEFF0 /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		47D4223F1F172395005DEFF0 /* readMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = readMe.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +108,12 @@
 			children = (
 				47D421CE1F171AFB005DEFF0 /* AppDelegate.swift */,
 				47D421D01F171AFB005DEFF0 /* ViewController.swift */,
+				47D421FD1F172111005DEFF0 /* Person.h */,
+				47D421FE1F172111005DEFF0 /* Person.m */,
+				47D422001F17227C005DEFF0 /* Phone.h */,
+				47D422011F17227C005DEFF0 /* Phone.m */,
+				47D421FC1F172111005DEFF0 /* Swift调用OC代码-Bridging-Header.h */,
+				47D4223F1F172395005DEFF0 /* readMe.png */,
 				47D421D21F171AFB005DEFF0 /* Main.storyboard */,
 				47D421D51F171AFB005DEFF0 /* Assets.xcassets */,
 				47D421D71F171AFB005DEFF0 /* LaunchScreen.storyboard */,
@@ -194,6 +209,7 @@
 					47D421CA1F171AFB005DEFF0 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = WTB2BKP7UZ;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					47D421DE1F171AFB005DEFF0 = {
@@ -237,6 +253,7 @@
 			files = (
 				47D421D91F171AFB005DEFF0 /* LaunchScreen.storyboard in Resources */,
 				47D421D61F171AFB005DEFF0 /* Assets.xcassets in Resources */,
+				47D422401F172395005DEFF0 /* readMe.png in Resources */,
 				47D421D41F171AFB005DEFF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D422021F17227C005DEFF0 /* Phone.m in Sources */,
+				47D421FF1F172111005DEFF0 /* Person.m in Sources */,
 				47D421D11F171AFB005DEFF0 /* ViewController.swift in Sources */,
 				47D421CF1F171AFB005DEFF0 /* AppDelegate.swift in Sources */,
 			);
@@ -417,11 +436,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				INFOPLIST_FILE = "Swift调用OC代码/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HanJunqiang.Swift--OC--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift调用OC代码/Swift调用OC代码-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,11 +452,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				INFOPLIST_FILE = "Swift调用OC代码/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HanJunqiang.Swift--OC--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift调用OC代码/Swift调用OC代码-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -3,7 +3,7 @@ Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新
 
 基础篇
 ===
-知识架构:
+###[点我>>>知识架构:](https://github.com/iOS-Swift-Developers/Swift/tree/master/%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95)
 
 - 常两变量
 - 基本数据类型
@@ -44,10 +44,12 @@ Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新
 - 泛型
 - Swift语法补充
 - Swift4.0KVC和KVO
+- 闭包补充
+- 异常处理
 
 ### 今日更新
-- Swift语法补充
-- Swift4.0KVC和KVO
+- 闭包补充
+- 异常处理
 
 ## 更新中...
 接下来开始解读 Swift项目之UIKit和Foundation相关框架!

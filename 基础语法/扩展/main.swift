@@ -55,7 +55,7 @@ var myTra2 = Transport(scope: "轮船") //使用原构造器, 价格属性的值
 
 /// 3.扩展方法
 
-//扩展证书类型
+//扩展整数类型
 extension Int {
     func calculate() -> Int {
         return self * 2

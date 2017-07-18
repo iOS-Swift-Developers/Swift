@@ -3,6 +3,10 @@ Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新
 
 基础篇
 ===
+Swift基本语法思维导图:
+
+![Swift基本语法思维导图](https://github.com/iOS-Swift-Developers/Swift/blob/master/Swift%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.png?raw=true)
+
 ###[点我>>>知识架构:](https://github.com/iOS-Swift-Developers/Swift/tree/master/%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95)
 
 - 常两变量

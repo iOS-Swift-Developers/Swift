@@ -49,7 +49,12 @@ Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新
 
 ### 实战篇 - 直播项目 (UIKit 和 UIFoundation)
 
+实战项目搭建如下脑图:
+
+![实战项目架构图](https://github.com/iOS-Swift-Developers/Swift/blob/master/%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84%E5%9B%BE.png?raw=true)
+
 ##### [点我>>>实战前技术点:](https://github.com/iOS-Swift-Developers/Swift/tree/master/%E5%AE%9E%E6%88%98%E5%89%8D%E6%8A%80%E6%9C%AF%E7%82%B9)
+
 
 - OOP到POP
 - 粒子动画&面向协议

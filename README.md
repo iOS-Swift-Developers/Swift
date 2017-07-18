@@ -47,7 +47,7 @@ Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新
 - 闭包补充
 - 异常处理
 
-### 实战 - 直播项目 (UIKit 和 UIFoundation)
+### 实战篇 - 直播项目 (UIKit 和 UIFoundation)
 
 ##### [点我>>>实战前技术点:](https://github.com/iOS-Swift-Developers/Swift/tree/master/%E5%AE%9E%E6%88%98%E5%89%8D%E6%8A%80%E6%9C%AF%E7%82%B9)
 

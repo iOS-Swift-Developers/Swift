@@ -1,0 +1,23 @@
+project 'GPUImageDemo.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GPUImageDemo' do
+  
+  pod "GPUImage"
+  use_frameworks!
+
+  # Pods for GPUImageDemo
+
+  target 'GPUImageDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GPUImageDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

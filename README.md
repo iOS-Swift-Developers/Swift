@@ -64,9 +64,10 @@ Swift基本语法思维导图:
 - 粒子动画&面向协议
 - JQPageView
 - 瀑布流
+- GPUImage-滤镜美颜相机毛玻璃
 
 ### 今日更新
-- 瀑布流
+- GPUImage-滤镜美颜相机毛玻璃
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

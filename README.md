@@ -51,8 +51,8 @@ Swift基本语法思维导图:
 - 闭包补充
 - 异常处理
 
-### 实战篇 - 直播项目 (UIKit 和 UIFoundation)
-
+实战篇 - 直播项目 (UIKit 和 UIFoundation)
+===
 实战项目搭建如下脑图:
 
 ![实战项目架构图](https://github.com/iOS-Swift-Developers/Swift/blob/master/%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84%E5%9B%BE.png?raw=true)
@@ -62,9 +62,13 @@ Swift基本语法思维导图:
 
 - OOP到POP
 - 粒子动画&面向协议
+- JQPageView
+- 瀑布流
+- GPUImage-滤镜美颜相机毛玻璃
+- GPUImage-视频采集
 
 ### 今日更新
-- 粒子动画&面向协议
+- 2017.07.24 GPUImage-视频采集
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

@@ -1,0 +1,9 @@
+project 'iOS实现推流.xcodeproj'
+
+target 'iOS实现推流' do
+  
+  pod "LFLiveKit"
+
+  use_frameworks!
+
+end

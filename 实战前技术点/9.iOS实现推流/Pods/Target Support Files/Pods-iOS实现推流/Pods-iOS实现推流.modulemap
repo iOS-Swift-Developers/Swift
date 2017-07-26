@@ -1,0 +1,6 @@
+framework module Pods_iOS____ {
+  umbrella header "Pods-iOS实现推流-umbrella.h"
+
+  export *
+  module * { export * }
+}

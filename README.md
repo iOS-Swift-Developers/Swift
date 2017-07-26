@@ -68,9 +68,13 @@ Swift基本语法思维导图:
 - GPUImage-视频采集
 - VideoToolBox-视频采集
 - Encode(FFmpeg+x264)-视频采集
+- iOS实现直播推流
+- iOS实现直播拉流
 
 ### 今日更新
-- 2017.07.26 Encode(FFmpeg+x264)-视频采集
+- 2017.07.27 更新
+- iOS实现直播推流
+- iOS实现直播拉流
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

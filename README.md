@@ -70,11 +70,13 @@ Swift基本语法思维导图:
 - Encode(FFmpeg+x264)-视频采集
 - iOS实现直播推流
 - iOS实现直播拉流
+- 播放Gif
 
 ### 今日更新
 - 2017.07.27 更新
 - iOS实现直播推流
 - iOS实现直播拉流
+- 播放Gif
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

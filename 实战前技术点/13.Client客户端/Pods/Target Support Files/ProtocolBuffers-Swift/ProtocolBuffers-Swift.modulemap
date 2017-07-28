@@ -1,0 +1,6 @@
+framework module ProtocolBuffers {
+  umbrella header "ProtocolBuffers-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

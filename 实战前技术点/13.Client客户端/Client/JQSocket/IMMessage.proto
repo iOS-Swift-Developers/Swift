@@ -1,0 +1,18 @@
+syntax = "proto2";
+
+message UserInfo {
+    required string name = 1;
+    required int64 level = 2;
+}
+
+message TextMessage {
+    required UserInfo user = 1;
+    required string text = 2;
+}
+
+message GiftMessage {
+    required UserInfo user = 1;
+    required string giftname = 2;
+    required string giftURL = 3;
+    required string giftCount = 4;
+}

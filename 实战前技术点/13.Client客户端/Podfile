@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+use_frameworks!
+
+# Pods for Client
+
+target 'Client' do
+    
+    pod 'ProtocolBuffers-Swift', '~> 3.0.6'
+    
+end

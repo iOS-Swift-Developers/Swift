@@ -16,6 +16,8 @@ import UIKit
  5> 读取从服务器传送过来的消息(开启子线程)
  */
 
+//关于ProtocolBuffers: http://blog.csdn.net/qq_31810357/article/details/76252480
+
 //关于测试: 与Server服务端配合测试监听: addr 和 port 要一致!
 //addr: 是你mac的ip地址, port端口: 可以自定义, 建议4位大于2000的端口, 否则有可能被占用!
 

@@ -21,8 +21,6 @@ class JQTitleStyle {
     var titleMargin : CGFloat = 20
     /// titleView的高度
     var titleHeight : CGFloat = 44
-    /// titleView的背景颜色
-    var titleBgColor : UIColor = .clear
     
     /// 是否显示底部滚动条
     var isShowBottomLine : Bool = false
@@ -43,8 +41,6 @@ class JQTitleStyle {
     var coverMargin : CGFloat = 5
     /// 遮盖的高度
     var coverH : CGFloat = 25
-    /// 遮盖的宽度
-    var coverW : CGFloat = 0
     /// 设置圆角大小
     var coverRadius : CGFloat = 12
 }

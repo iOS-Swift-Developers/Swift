@@ -53,10 +53,10 @@ extension HomeViewController {
         let pageFrame = CGRect.init(x: 0, y: kNavigationBarHeight + kStatusBarHeight, width: kScreenWidth, height: kScreenHeight - kNavigationBarHeight - kStatusBarHeight - 44)
         
         let titles = homeTypes.map({ $0.title })
-        var childVcs = [UIViewController]()
-        for _ in homeTypes {
-            let anchorVc = UIViewController()
-            anchorVc.view.backgroundColor = UIColor.randomColor()
+        var childVcs = [AnchorViewController]()
+        for type in homeTypes {
+            let anchorVc = AnchorViewController()
+            anchorVc.homeType = type
             childVcs.append(anchorVc)
         }
         let pageView = JQPageView(frame: pageFrame, titles: titles, style: style, childVCs: childVcs, parentVc: self)

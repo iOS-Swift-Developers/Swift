@@ -12,9 +12,9 @@ class JQPageView: UIView {
     
     // MARK: 定义属性
     fileprivate var titles : [String]!
+    fileprivate var style : JQTitleStyle!
     fileprivate var childVcs : [UIViewController]!
     fileprivate weak var parentVc : UIViewController!
-    fileprivate var style : JQTitleStyle!
     
     fileprivate var titleView : JQTitleView!
     fileprivate var contentView : JQContentView!
@@ -23,7 +23,6 @@ class JQPageView: UIView {
     init(frame : CGRect, titles : [String], style : JQTitleStyle, childVCs : [UIViewController], parentVc : UIViewController) {
         super.init(frame: frame)
         
-//        assert(titles.count == childVcs.count, "标题和控制前个数不同!") // 测试
         self.style = style
         self.titles = titles
         self.childVcs = childVCs
@@ -42,7 +41,7 @@ class JQPageView: UIView {
 // MARK:- 设置UI界面内容
 extension JQPageView {
     fileprivate func setupUI() {
-        let titleH : CGFloat = style.titleHeight
+        let titleH : CGFloat = 44
         let titleFrame = CGRect(x: 0, y: 0, width: frame.width, height: titleH)
         titleView  = JQTitleView(frame: titleFrame, titles: titles, style: style)
         titleView.delegate = self

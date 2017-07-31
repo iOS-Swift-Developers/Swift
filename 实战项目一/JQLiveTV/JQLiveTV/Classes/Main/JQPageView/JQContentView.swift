@@ -23,9 +23,9 @@ class JQContentView: UIView {
     
     // MARK: 定义属性
     fileprivate var childVcs : [UIViewController]!
-    fileprivate var parentVc : UIViewController!
-    fileprivate lazy var isForbidScrollDelegate : Bool = false
-    fileprivate lazy var startOffsetX : CGFloat = 0
+    fileprivate weak var parentVc : UIViewController!
+    fileprivate  var isForbidScrollDelegate : Bool = false
+    fileprivate  var startOffsetX : CGFloat = 0
     
     // MARK: 控件属性
     fileprivate lazy var collectionView : UICollectionView = {

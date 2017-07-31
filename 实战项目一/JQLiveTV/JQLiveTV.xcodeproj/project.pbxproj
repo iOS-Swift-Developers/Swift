@@ -16,9 +16,7 @@
 		473A39871F2EBD8E004A8961 /* JQLiveTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39861F2EBD8E004A8961 /* JQLiveTVTests.swift */; };
 		473A39921F2EBD8E004A8961 /* JQLiveTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39911F2EBD8E004A8961 /* JQLiveTVUITests.swift */; };
 		473A39A71F2EC222004A8961 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 473A39A61F2EC222004A8961 /* types.plist */; };
-		473A39B11F2EC2D6004A8961 /* JQContentFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39AA1F2EC2D6004A8961 /* JQContentFlowLayout.swift */; };
 		473A39B21F2EC2D6004A8961 /* JQContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39AB1F2EC2D6004A8961 /* JQContentView.swift */; };
-		473A39B31F2EC2D6004A8961 /* JQPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39AC1F2EC2D6004A8961 /* JQPageCollectionView.swift */; };
 		473A39B41F2EC2D6004A8961 /* JQPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39AD1F2EC2D6004A8961 /* JQPageView.swift */; };
 		473A39B51F2EC2D6004A8961 /* JQTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39AE1F2EC2D6004A8961 /* JQTitleStyle.swift */; };
 		473A39B61F2EC2D6004A8961 /* JQTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39AF1F2EC2D6004A8961 /* JQTitleView.swift */; };
@@ -39,6 +37,12 @@
 		473A39DD1F2ED4B6004A8961 /* KingfisherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39DC1F2ED4B6004A8961 /* KingfisherExtension.swift */; };
 		473A39DF1F2ED9B4004A8961 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39DE1F2ED9B4004A8961 /* HomeViewController.swift */; };
 		473A39E11F2EE1CD004A8961 /* HomeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A39E01F2EE1CD004A8961 /* HomeType.swift */; };
+		47B38B281F2EF8E9000C4CDD /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B38B271F2EF8E9000C4CDD /* WaterfallLayout.swift */; };
+		47B38B2A1F2EFFDE000C4CDD /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B38B291F2EFFDE000C4CDD /* AnchorModel.swift */; };
+		47B38B2D1F2F0086000C4CDD /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B38B2B1F2F0086000C4CDD /* HomeViewCell.swift */; };
+		47B38B2E1F2F0086000C4CDD /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B38B2C1F2F0086000C4CDD /* HomeViewCell.xib */; };
+		47B38B301F2F0419000C4CDD /* AnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B38B2F1F2F0419000C4CDD /* AnchorViewController.swift */; };
+		47B38B321F2F04BD000C4CDD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B38B311F2F04BD000C4CDD /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,9 +81,7 @@
 		473A39911F2EBD8E004A8961 /* JQLiveTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQLiveTVUITests.swift; sourceTree = "<group>"; };
 		473A39931F2EBD8E004A8961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		473A39A61F2EC222004A8961 /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
-		473A39AA1F2EC2D6004A8961 /* JQContentFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQContentFlowLayout.swift; sourceTree = "<group>"; };
 		473A39AB1F2EC2D6004A8961 /* JQContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQContentView.swift; sourceTree = "<group>"; };
-		473A39AC1F2EC2D6004A8961 /* JQPageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQPageCollectionView.swift; sourceTree = "<group>"; };
 		473A39AD1F2EC2D6004A8961 /* JQPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQPageView.swift; sourceTree = "<group>"; };
 		473A39AE1F2EC2D6004A8961 /* JQTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTitleStyle.swift; sourceTree = "<group>"; };
 		473A39AF1F2EC2D6004A8961 /* JQTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTitleView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,12 @@
 		473A39DC1F2ED4B6004A8961 /* KingfisherExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherExtension.swift; sourceTree = "<group>"; };
 		473A39DE1F2ED9B4004A8961 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		473A39E01F2EE1CD004A8961 /* HomeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeType.swift; sourceTree = "<group>"; };
+		47B38B271F2EF8E9000C4CDD /* WaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		47B38B291F2EFFDE000C4CDD /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		47B38B2B1F2F0086000C4CDD /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		47B38B2C1F2F0086000C4CDD /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		47B38B2F1F2F0419000C4CDD /* AnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
+		47B38B311F2F04BD000C4CDD /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		A5902F89DA232DECDB22D707 /* Pods_JQLiveTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQLiveTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -266,9 +274,7 @@
 		473A39A91F2EC2D6004A8961 /* JQPageView */ = {
 			isa = PBXGroup;
 			children = (
-				473A39AA1F2EC2D6004A8961 /* JQContentFlowLayout.swift */,
 				473A39AB1F2EC2D6004A8961 /* JQContentView.swift */,
-				473A39AC1F2EC2D6004A8961 /* JQPageCollectionView.swift */,
 				473A39AD1F2EC2D6004A8961 /* JQPageView.swift */,
 				473A39AE1F2EC2D6004A8961 /* JQTitleStyle.swift */,
 				473A39AF1F2EC2D6004A8961 /* JQTitleView.swift */,
@@ -314,6 +320,8 @@
 		473A39CA1F2EC9F7004A8961 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				47B38B2B1F2F0086000C4CDD /* HomeViewCell.swift */,
+				47B38B2C1F2F0086000C4CDD /* HomeViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,6 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				473A39E01F2EE1CD004A8961 /* HomeType.swift */,
+				47B38B291F2EFFDE000C4CDD /* AnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -331,6 +340,7 @@
 			children = (
 				473A39CE1F2ECA3E004A8961 /* Home.storyboard */,
 				473A39DE1F2ED9B4004A8961 /* HomeViewController.swift */,
+				47B38B2F1F2F0419000C4CDD /* AnchorViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -338,6 +348,8 @@
 		473A39CD1F2ECA29004A8961 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				47B38B271F2EF8E9000C4CDD /* WaterfallLayout.swift */,
+				47B38B311F2F04BD000C4CDD /* HomeViewModel.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -478,6 +490,7 @@
 				473A39BF1F2EC3D0004A8961 /* Rank.storyboard in Resources */,
 				473A397C1F2EBD8E004A8961 /* LaunchScreen.storyboard in Resources */,
 				473A39791F2EBD8E004A8961 /* Assets.xcassets in Resources */,
+				47B38B2E1F2F0086000C4CDD /* HomeViewCell.xib in Resources */,
 				473A39A71F2EC222004A8961 /* types.plist in Resources */,
 				473A39771F2EBD8E004A8961 /* Main.storyboard in Resources */,
 				473A39C31F2EC589004A8961 /* Profile.storyboard in Resources */,
@@ -558,19 +571,22 @@
 				473A39741F2EBD8E004A8961 /* ViewController.swift in Sources */,
 				473A39DB1F2ED2B5004A8961 /* NetworkTools.swift in Sources */,
 				473A39DF1F2ED9B4004A8961 /* HomeViewController.swift in Sources */,
+				47B38B321F2F04BD000C4CDD /* HomeViewModel.swift in Sources */,
 				473A39C91F2EC79E004A8961 /* UIColor-Extension.swift in Sources */,
+				47B38B2A1F2EFFDE000C4CDD /* AnchorModel.swift in Sources */,
 				473A39C71F2EC716004A8961 /* NSDate-Extension.swift in Sources */,
 				473A39D31F2ECDFB004A8961 /* BaseModel.swift in Sources */,
-				473A39B11F2EC2D6004A8961 /* JQContentFlowLayout.swift in Sources */,
 				473A39B41F2EC2D6004A8961 /* JQPageView.swift in Sources */,
 				473A39D91F2ED0BB004A8961 /* JQNavigationController.swift in Sources */,
 				473A39D11F2ECB21004A8961 /* MainViewController.swift in Sources */,
 				473A39DD1F2ED4B6004A8961 /* KingfisherExtension.swift in Sources */,
-				473A39B31F2EC2D6004A8961 /* JQPageCollectionView.swift in Sources */,
 				473A39E11F2EE1CD004A8961 /* HomeType.swift in Sources */,
 				473A39B61F2EC2D6004A8961 /* JQTitleView.swift in Sources */,
+				47B38B301F2F0419000C4CDD /* AnchorViewController.swift in Sources */,
 				473A39D51F2ECE6A004A8961 /* NibLoadable.swift in Sources */,
 				473A39721F2EBD8E004A8961 /* AppDelegate.swift in Sources */,
+				47B38B281F2EF8E9000C4CDD /* WaterfallLayout.swift in Sources */,
+				47B38B2D1F2F0086000C4CDD /* HomeViewCell.swift in Sources */,
 				473A39D71F2ECFC6004A8961 /* Emitterable.swift in Sources */,
 				473A39B51F2EC2D6004A8961 /* JQTitleStyle.swift in Sources */,
 				473A39B21F2EC2D6004A8961 /* JQContentView.swift in Sources */,

@@ -21,14 +21,15 @@ class JQTitleView : UIView {
     // MARK: 定义属性
     fileprivate var titles : [String]!
     fileprivate var style : JQTitleStyle!
-    fileprivate lazy var currentIndex : Int = 0
+    fileprivate var currentIndex : Int = 0
     
     // MARK: 存储属性
     fileprivate lazy var titleLabels : [UILabel] = [UILabel]()
     
     // MARK: 控件属性
     fileprivate lazy var scrollView : UIScrollView = {
-        let scrollV = UIScrollView(frame: self.bounds)
+        let scrollV = UIScrollView()
+        scrollV.frame = self.bounds
         scrollV.showsHorizontalScrollIndicator = false
         scrollV.scrollsToTop = false
         return scrollV
@@ -75,8 +76,6 @@ class JQTitleView : UIView {
 // MARK:- 设置UI界面内容
 extension JQTitleView {
     fileprivate func setupUI(){
-        // 0.设置自己的背景颜色
-        backgroundColor = style.titleBgColor
         
         // 1.添加滚动ScrollView
         addSubview(scrollView)
@@ -184,17 +183,6 @@ extension JQTitleView {
     }
 }
 
-// MARK:- 获取RGB
-extension JQTitleView {
-    fileprivate func getRGBWithColor(_ color : UIColor) -> (CGFloat, CGFloat, CGFloat) {
-        guard let components = color.cgColor.components else {
-            fatalError("请使用RGB方式给title赋值颜色")
-        }
-        
-        return (components[0] * 255, components[1] * 255, components[2] * 255)
-    }
-}
-
 // MARK:- 事件处理
 extension JQTitleView {
     @objc fileprivate func titleLabelClick(_ tap : UITapGestureRecognizer) {
@@ -247,12 +235,14 @@ extension JQTitleView {
 }
 
 // MARK:- 获取RGB的值
-private func getRGBValue(_ color : UIColor) -> (CGFloat, CGFloat, CGFloat) {
-    guard let components = color.cgColor.components else {
-        fatalError("文字颜色请按照RGB方式设置")
+extension JQTitleView {
+    fileprivate func getRGBWithColor(_ color : UIColor) -> (CGFloat, CGFloat, CGFloat) {
+        guard let components = color.cgColor.components else {
+            fatalError("请使用RGB方式给Title赋值颜色")
+        }
+        
+        return (components[0] * 255, components[1] * 255, components[2] * 255)
     }
-    
-    return (components[0] * 255, components[1] * 255, components[2] * 255)
 }
 
 // MARK:- 对外暴露的方法

@@ -16,7 +16,7 @@ extension UIImageView {
         
         guard let placeHolderName = placeHolderName else { return }
         
-        guard let url = URL.init(string: URLString) else { return }
+        guard let url = URL(string: URLString) else { return }
         
         kf.setImage(with: url, placeholder: UIImage.init(named: placeHolderName))
     }

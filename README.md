@@ -74,10 +74,11 @@ Swift基本语法思维导图:
 - 基于ysocket聊天:Client客户端
 - 基于ysocket聊天:Server服务端
 - JQGiftAnimation-送礼物
+- 实战项目-JQLiveTV主页搭建
 
 ### 今日更新
-- 2017.07.29 更新
-- JQGiftAnimation-送礼物
+- 2017.07.31 更新
+- 实战项目-JQLiveTV主页搭建
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

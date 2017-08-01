@@ -74,11 +74,24 @@ Swift基本语法思维导图:
 - 基于ysocket聊天:Client客户端
 - 基于ysocket聊天:Server服务端
 - JQGiftAnimation-送礼物
+
+实战篇 - 直播项目 (JQLiveTV)
+===
+
+[开发前必读](https://github.com/iOS-Swift-Developers/Swift/blob/master/%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE%E4%B8%80/%E5%BC%80%E5%8F%91%E5%89%8D%E5%BF%85%E7%9C%8B.pages?raw=true)
+
+[IJKMediaFramework下载地址](http://download.csdn.net/detail/qq_31810357/9917177)
+
+#### [目录:](https://github.com/iOS-Swift-Developers/Swift/tree/master/%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE%E4%B8%80)
+
 - 实战项目-JQLiveTV主页搭建
+- IJKMediaFramework的使用
+- 技术点组合和穿插学习
+- 实战项目-JQLiveTV结束
 
 ### 今日更新
-- 2017.07.31 更新
-- 实战项目-JQLiveTV主页搭建
+- 2017.08.01 更新
+- 实战项目-JQLiveTV结束
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

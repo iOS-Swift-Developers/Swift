@@ -1,6 +1,0 @@
-framework module Pods_JQLiveTV {
-  umbrella header "Pods-JQLiveTV-umbrella.h"
-
-  export *
-  module * { export * }
-}

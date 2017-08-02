@@ -89,9 +89,15 @@ Swift基本语法思维导图:
 - 技术点组合和穿插学习
 - 实战项目-JQLiveTV结束
 
+RxSwift使用教程
+===
+[目录:]()
+
+- RxSwift使用教程-RxSwift初体验;
+
 ### 今日更新
-- 2017.08.01 更新
-- 实战项目-JQLiveTV结束
+- 2017.08.02 更新
+-  RxSwift使用教程-RxSwift初体验;
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

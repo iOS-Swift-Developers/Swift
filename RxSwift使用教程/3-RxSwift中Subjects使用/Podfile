@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+
+target '3-RxSwift中Subjects使用' do
+
+  pod "RxSwift"
+  pod "RxCocoa"
+  use_frameworks!
+
+end
+

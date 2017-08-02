@@ -1,0 +1,6 @@
+framework module Pods_4_RxSwift_____ {
+  umbrella header "Pods-4-RxSwift的变换操作-umbrella.h"
+
+  export *
+  module * { export * }
+}

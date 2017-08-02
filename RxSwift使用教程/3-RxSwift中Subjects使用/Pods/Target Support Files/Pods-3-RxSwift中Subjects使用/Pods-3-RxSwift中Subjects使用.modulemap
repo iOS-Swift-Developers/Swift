@@ -1,0 +1,6 @@
+framework module Pods_3_RxSwift_Subjects__ {
+  umbrella header "Pods-3-RxSwift中Subjects使用-umbrella.h"
+
+  export *
+  module * { export * }
+}

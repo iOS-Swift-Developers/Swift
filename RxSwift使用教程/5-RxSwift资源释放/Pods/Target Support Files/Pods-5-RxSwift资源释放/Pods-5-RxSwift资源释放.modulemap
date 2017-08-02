@@ -1,0 +1,6 @@
+framework module Pods_5_RxSwift____ {
+  umbrella header "Pods-5-RxSwift资源释放-umbrella.h"
+
+  export *
+  module * { export * }
+}

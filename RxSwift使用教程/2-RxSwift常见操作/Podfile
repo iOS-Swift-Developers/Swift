@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target 'RxSwift(2)' do
+
+  pod "RxSwift"
+  pod "RxCocoa"
+  use_frameworks!
+
+end

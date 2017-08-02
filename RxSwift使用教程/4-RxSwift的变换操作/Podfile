@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target '4-RxSwift的变换操作' do
+
+  pod "RxSwift"
+  use_frameworks!
+
+end
+

@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4761DD9A1F31AF2B00E17926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761DD991F31AF2B00E17926 /* AppDelegate.swift */; };
+		4761DD9C1F31AF2B00E17926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761DD9B1F31AF2B00E17926 /* ViewController.swift */; };
+		4761DD9F1F31AF2B00E17926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4761DD9D1F31AF2B00E17926 /* Main.storyboard */; };
+		4761DDA11F31AF2B00E17926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4761DDA01F31AF2B00E17926 /* Assets.xcassets */; };
+		4761DDA41F31AF2B00E17926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4761DDA21F31AF2B00E17926 /* LaunchScreen.storyboard */; };
+		4761DDAF1F31AF2B00E17926 /* __RxSwift_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761DDAE1F31AF2B00E17926 /* __RxSwift_____Tests.swift */; };
+		4761DDBA1F31AF2B00E17926 /* __RxSwift_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761DDB91F31AF2B00E17926 /* __RxSwift_____UITests.swift */; };
+		F44E4C9186D2C346D61B0D1C /* Pods_4_RxSwift_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F543E24CB6B88A73F59B9703 /* Pods_4_RxSwift_____.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4761DDAB1F31AF2B00E17926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4761DD8E1F31AF2B00E17926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4761DD951F31AF2B00E17926;
+			remoteInfo = "4-RxSwift的变换操作";
+		};
+		4761DDB61F31AF2B00E17926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4761DD8E1F31AF2B00E17926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4761DD951F31AF2B00E17926;
+			remoteInfo = "4-RxSwift的变换操作";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4761DD961F31AF2B00E17926 /* 4-RxSwift的变换操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4-RxSwift的变换操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4761DD991F31AF2B00E17926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4761DD9B1F31AF2B00E17926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4761DD9E1F31AF2B00E17926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4761DDA01F31AF2B00E17926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4761DDA31F31AF2B00E17926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4761DDA51F31AF2B00E17926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4761DDAA1F31AF2B00E17926 /* 4-RxSwift的变换操作Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4-RxSwift的变换操作Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4761DDAE1F31AF2B00E17926 /* __RxSwift_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __RxSwift_____Tests.swift; sourceTree = "<group>"; };
+		4761DDB01F31AF2B00E17926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4761DDB51F31AF2B00E17926 /* 4-RxSwift的变换操作UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4-RxSwift的变换操作UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4761DDB91F31AF2B00E17926 /* __RxSwift_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __RxSwift_____UITests.swift; sourceTree = "<group>"; };
+		4761DDBB1F31AF2B00E17926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5368E71703EC0D29DD854468 /* Pods-4-RxSwift的变换操作.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4-RxSwift的变换操作.debug.xcconfig"; path = "Pods/Target Support Files/Pods-4-RxSwift的变换操作/Pods-4-RxSwift的变换操作.debug.xcconfig"; sourceTree = "<group>"; };
+		EB248FE51A30FB7ACE7A2F3E /* Pods-4-RxSwift的变换操作.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4-RxSwift的变换操作.release.xcconfig"; path = "Pods/Target Support Files/Pods-4-RxSwift的变换操作/Pods-4-RxSwift的变换操作.release.xcconfig"; sourceTree = "<group>"; };
+		F543E24CB6B88A73F59B9703 /* Pods_4_RxSwift_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4_RxSwift_____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4761DD931F31AF2B00E17926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44E4C9186D2C346D61B0D1C /* Pods_4_RxSwift_____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761DDA71F31AF2B00E17926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761DDB21F31AF2B00E17926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4761DD8D1F31AF2B00E17926 = {
+			isa = PBXGroup;
+			children = (
+				4761DD981F31AF2B00E17926 /* 4-RxSwift的变换操作 */,
+				4761DDAD1F31AF2B00E17926 /* 4-RxSwift的变换操作Tests */,
+				4761DDB81F31AF2B00E17926 /* 4-RxSwift的变换操作UITests */,
+				4761DD971F31AF2B00E17926 /* Products */,
+				552E2E4198CF1204BE561261 /* Pods */,
+				883D7A6DDA96B0165EC1EBAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4761DD971F31AF2B00E17926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4761DD961F31AF2B00E17926 /* 4-RxSwift的变换操作.app */,
+				4761DDAA1F31AF2B00E17926 /* 4-RxSwift的变换操作Tests.xctest */,
+				4761DDB51F31AF2B00E17926 /* 4-RxSwift的变换操作UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4761DD981F31AF2B00E17926 /* 4-RxSwift的变换操作 */ = {
+			isa = PBXGroup;
+			children = (
+				4761DD991F31AF2B00E17926 /* AppDelegate.swift */,
+				4761DD9B1F31AF2B00E17926 /* ViewController.swift */,
+				4761DD9D1F31AF2B00E17926 /* Main.storyboard */,
+				4761DDA01F31AF2B00E17926 /* Assets.xcassets */,
+				4761DDA21F31AF2B00E17926 /* LaunchScreen.storyboard */,
+				4761DDA51F31AF2B00E17926 /* Info.plist */,
+			);
+			path = "4-RxSwift的变换操作";
+			sourceTree = "<group>";
+		};
+		4761DDAD1F31AF2B00E17926 /* 4-RxSwift的变换操作Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4761DDAE1F31AF2B00E17926 /* __RxSwift_____Tests.swift */,
+				4761DDB01F31AF2B00E17926 /* Info.plist */,
+			);
+			path = "4-RxSwift的变换操作Tests";
+			sourceTree = "<group>";
+		};
+		4761DDB81F31AF2B00E17926 /* 4-RxSwift的变换操作UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4761DDB91F31AF2B00E17926 /* __RxSwift_____UITests.swift */,
+				4761DDBB1F31AF2B00E17926 /* Info.plist */,
+			);
+			path = "4-RxSwift的变换操作UITests";
+			sourceTree = "<group>";
+		};
+		552E2E4198CF1204BE561261 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5368E71703EC0D29DD854468 /* Pods-4-RxSwift的变换操作.debug.xcconfig */,
+				EB248FE51A30FB7ACE7A2F3E /* Pods-4-RxSwift的变换操作.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		883D7A6DDA96B0165EC1EBAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F543E24CB6B88A73F59B9703 /* Pods_4_RxSwift_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4761DD951F31AF2B00E17926 /* 4-RxSwift的变换操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4761DDBE1F31AF2B00E17926 /* Build configuration list for PBXNativeTarget "4-RxSwift的变换操作" */;
+			buildPhases = (
+				B9BC636D40C7EDF0C3612110 /* [CP] Check Pods Manifest.lock */,
+				4761DD921F31AF2B00E17926 /* Sources */,
+				4761DD931F31AF2B00E17926 /* Frameworks */,
+				4761DD941F31AF2B00E17926 /* Resources */,
+				4463478AB4D765E061118DF9 /* [CP] Embed Pods Frameworks */,
+				27A74D277677857EF41E11D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4-RxSwift的变换操作";
+			productName = "4-RxSwift的变换操作";
+			productReference = 4761DD961F31AF2B00E17926 /* 4-RxSwift的变换操作.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4761DDA91F31AF2B00E17926 /* 4-RxSwift的变换操作Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4761DDC11F31AF2B00E17926 /* Build configuration list for PBXNativeTarget "4-RxSwift的变换操作Tests" */;
+			buildPhases = (
+				4761DDA61F31AF2B00E17926 /* Sources */,
+				4761DDA71F31AF2B00E17926 /* Frameworks */,
+				4761DDA81F31AF2B00E17926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4761DDAC1F31AF2B00E17926 /* PBXTargetDependency */,
+			);
+			name = "4-RxSwift的变换操作Tests";
+			productName = "4-RxSwift的变换操作Tests";
+			productReference = 4761DDAA1F31AF2B00E17926 /* 4-RxSwift的变换操作Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4761DDB41F31AF2B00E17926 /* 4-RxSwift的变换操作UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4761DDC41F31AF2B00E17926 /* Build configuration list for PBXNativeTarget "4-RxSwift的变换操作UITests" */;
+			buildPhases = (
+				4761DDB11F31AF2B00E17926 /* Sources */,
+				4761DDB21F31AF2B00E17926 /* Frameworks */,
+				4761DDB31F31AF2B00E17926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4761DDB71F31AF2B00E17926 /* PBXTargetDependency */,
+			);
+			name = "4-RxSwift的变换操作UITests";
+			productName = "4-RxSwift的变换操作UITests";
+			productReference = 4761DDB51F31AF2B00E17926 /* 4-RxSwift的变换操作UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4761DD8E1F31AF2B00E17926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HaRi;
+				TargetAttributes = {
+					4761DD951F31AF2B00E17926 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+					};
+					4761DDA91F31AF2B00E17926 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4761DD951F31AF2B00E17926;
+					};
+					4761DDB41F31AF2B00E17926 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4761DD951F31AF2B00E17926;
+					};
+				};
+			};
+			buildConfigurationList = 4761DD911F31AF2B00E17926 /* Build configuration list for PBXProject "4-RxSwift的变换操作" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4761DD8D1F31AF2B00E17926;
+			productRefGroup = 4761DD971F31AF2B00E17926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4761DD951F31AF2B00E17926 /* 4-RxSwift的变换操作 */,
+				4761DDA91F31AF2B00E17926 /* 4-RxSwift的变换操作Tests */,
+				4761DDB41F31AF2B00E17926 /* 4-RxSwift的变换操作UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4761DD941F31AF2B00E17926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4761DDA41F31AF2B00E17926 /* LaunchScreen.storyboard in Resources */,
+				4761DDA11F31AF2B00E17926 /* Assets.xcassets in Resources */,
+				4761DD9F1F31AF2B00E17926 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761DDA81F31AF2B00E17926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761DDB31F31AF2B00E17926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A74D277677857EF41E11D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-4-RxSwift的变换操作/Pods-4-RxSwift的变换操作-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4463478AB4D765E061118DF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-4-RxSwift的变换操作/Pods-4-RxSwift的变换操作-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BC636D40C7EDF0C3612110 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4761DD921F31AF2B00E17926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4761DD9C1F31AF2B00E17926 /* ViewController.swift in Sources */,
+				4761DD9A1F31AF2B00E17926 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761DDA61F31AF2B00E17926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4761DDAF1F31AF2B00E17926 /* __RxSwift_____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761DDB11F31AF2B00E17926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4761DDBA1F31AF2B00E17926 /* __RxSwift_____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4761DDAC1F31AF2B00E17926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4761DD951F31AF2B00E17926 /* 4-RxSwift的变换操作 */;
+			targetProxy = 4761DDAB1F31AF2B00E17926 /* PBXContainerItemProxy */;
+		};
+		4761DDB71F31AF2B00E17926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4761DD951F31AF2B00E17926 /* 4-RxSwift的变换操作 */;
+			targetProxy = 4761DDB61F31AF2B00E17926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4761DD9D1F31AF2B00E17926 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4761DD9E1F31AF2B00E17926 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4761DDA21F31AF2B00E17926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4761DDA31F31AF2B00E17926 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4761DDBC1F31AF2B00E17926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4761DDBD1F31AF2B00E17926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4761DDBF1F31AF2B00E17926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5368E71703EC0D29DD854468 /* Pods-4-RxSwift的变换操作.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = "4-RxSwift的变换操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HanJunqiang.--RxSwift-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4761DDC01F31AF2B00E17926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB248FE51A30FB7ACE7A2F3E /* Pods-4-RxSwift的变换操作.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = "4-RxSwift的变换操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HanJunqiang.--RxSwift-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4761DDC21F31AF2B00E17926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = "4-RxSwift的变换操作Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HanJunqiang.--RxSwift-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4-RxSwift的变换操作.app/4-RxSwift的变换操作";
+			};
+			name = Debug;
+		};
+		4761DDC31F31AF2B00E17926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = "4-RxSwift的变换操作Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HanJunqiang.--RxSwift-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4-RxSwift的变换操作.app/4-RxSwift的变换操作";
+			};
+			name = Release;
+		};
+		4761DDC51F31AF2B00E17926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = "4-RxSwift的变换操作UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HanJunqiang.--RxSwift-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "4-RxSwift的变换操作";
+			};
+			name = Debug;
+		};
+		4761DDC61F31AF2B00E17926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = "4-RxSwift的变换操作UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HanJunqiang.--RxSwift-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "4-RxSwift的变换操作";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4761DD911F31AF2B00E17926 /* Build configuration list for PBXProject "4-RxSwift的变换操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4761DDBC1F31AF2B00E17926 /* Debug */,
+				4761DDBD1F31AF2B00E17926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4761DDBE1F31AF2B00E17926 /* Build configuration list for PBXNativeTarget "4-RxSwift的变换操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4761DDBF1F31AF2B00E17926 /* Debug */,
+				4761DDC01F31AF2B00E17926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4761DDC11F31AF2B00E17926 /* Build configuration list for PBXNativeTarget "4-RxSwift的变换操作Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4761DDC21F31AF2B00E17926 /* Debug */,
+				4761DDC31F31AF2B00E17926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4761DDC41F31AF2B00E17926 /* Build configuration list for PBXNativeTarget "4-RxSwift的变换操作UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4761DDC51F31AF2B00E17926 /* Debug */,
+				4761DDC61F31AF2B00E17926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4761DD8E1F31AF2B00E17926 /* Project object */;
+}

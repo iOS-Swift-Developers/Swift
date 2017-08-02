@@ -1,0 +1,6 @@
+framework module Pods_6_RxSwift_UITableVIew__ {
+  umbrella header "Pods-6-RxSwift的UITableVIew使用-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target ‘5-RxSwift资源释放' do
+
+  pod "RxSwift"
+  use_frameworks!
+
+end
+

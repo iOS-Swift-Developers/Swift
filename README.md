@@ -93,11 +93,20 @@ RxSwift使用教程
 ===
 [目录:](https://github.com/iOS-Swift-Developers/Swift/tree/master/RxSwift%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
 
-- RxSwift使用教程-RxSwift初体验;
+- 1-RxSwift初体验;
+- 2-RxSwift常见操作
+- 3-RxSwift中Subjects使用
+- 4-RxSwift的变换操作
+- 5-RxSwift资源释放
+- 6-RxSwift的UITableVIew使用
 
 ### 今日更新
-- 2017.08.02 更新
--  RxSwift使用教程-RxSwift初体验;
+- 2017.08.03 更新
+- 2-RxSwift常见操作
+- 3-RxSwift中Subjects使用
+- 4-RxSwift的变换操作
+- 5-RxSwift资源释放
+- 6-RxSwift的UITableVIew使用
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

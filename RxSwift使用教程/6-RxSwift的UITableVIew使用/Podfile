@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+
+target ‘6-RxSwift的UITableVIew使用' do
+
+  pod "RxSwift"
+  pod "RxCocoa"
+  use_frameworks!
+
+end
+

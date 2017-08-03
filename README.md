@@ -124,6 +124,8 @@ RxSwift使用教程
 
 ![微信公众号](http://blog26.com/images/wechatscan.gif)
 
+关于作者: [作者Github](https://github.com/XiaoHanGe) 喜欢记得Star噢!
+
 微信公众号每周推送新技术, [CSDN博客](http://blog.csdn.net/qq_31810357)欢迎关注交流!
  
 #### iOS开发者交流群：①群:446310206 ②群:426087546 喜欢就❤️❤️❤️star一下吧！你的支持是我更新的动力！ 

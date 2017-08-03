@@ -21,27 +21,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="91" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tQe-31-ilw">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="108" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tQe-31-ilw">
+                                <rect key="frame" x="0.0" y="108" width="375" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeroCellID" rowHeight="91" id="k9m-Je-Snh">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="91"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeroCellID" textLabel="Rkn-Ak-Toc" detailTextLabel="NAz-5m-uYU" rowHeight="64" style="IBUITableViewCellStyleSubtitle" id="k9m-Je-Snh">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k9m-Je-Snh" id="rey-0W-iVy">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="90.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="63.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rkn-Ak-Toc">
+                                                    <rect key="frame" x="15" y="15" width="33.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NAz-5m-uYU">
+                                                    <rect key="frame" x="15" y="35.5" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Qia-KF-mQu">
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7rI-8p-hWa"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="tQe-31-ilw" secondAttribute="trailing" id="IvR-K3-5ze"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tQe-31-ilw" secondAttribute="bottom" id="RDN-sU-Oyy"/>
-                            <constraint firstItem="tQe-31-ilw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jNJ-yB-ncw"/>
-                            <constraint firstItem="tQe-31-ilw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yF3-fh-ECh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tQe-31-ilw" secondAttribute="bottom" id="7fq-dy-PVN"/>
+                            <constraint firstAttribute="trailing" secondItem="Qia-KF-mQu" secondAttribute="trailing" id="A48-PJ-LPx"/>
+                            <constraint firstAttribute="trailing" secondItem="tQe-31-ilw" secondAttribute="trailing" id="Muf-Kg-1JW"/>
+                            <constraint firstItem="tQe-31-ilw" firstAttribute="top" secondItem="Qia-KF-mQu" secondAttribute="bottom" id="ZGI-zm-Gu6"/>
+                            <constraint firstItem="Qia-KF-mQu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bqW-R6-Ezs"/>
+                            <constraint firstItem="tQe-31-ilw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gsD-Dy-Xe7"/>
+                            <constraint firstItem="Qia-KF-mQu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vMW-eZ-Mnh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cBb-K4-ScO">
@@ -52,6 +78,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="searchBar" destination="Qia-KF-mQu" id="mse-Lq-HyV"/>
                         <outlet property="tableView" destination="tQe-31-ilw" id="6wb-XK-OHk"/>
                     </connections>
                 </viewController>

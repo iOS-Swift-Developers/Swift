@@ -1,6 +1,7 @@
-# Swift-从简单到复杂
-Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新, 欢迎star❤️❤️❤️哦!
 
+# Swift-从简单到复杂
+Swift基础知识大全; Swift学习从简单到复杂; 不断地完善与更新, 欢迎star❤️❤️❤️哦!最后送给犹豫中的小伙伴一句话, 来自Swift之父 Chris Lattner:
+#### Chris Lattner: 你不必一定要学习 Swift，Swift 只是一门更好的语言!
 基础篇
 ===
 Swift基本语法思维导图:

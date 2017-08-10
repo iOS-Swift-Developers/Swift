@@ -14,7 +14,7 @@ Swift基本语法思维导图:
 - 基本数据类型
 - 类型转换
 - Bool类型
-- 元祖
+- 元组
 - 可选值
 - 字符和字符串
 - 字符串常用方法
@@ -102,12 +102,8 @@ RxSwift使用教程
 - 6-RxSwift的UITableVIew使用
 
 ### 今日更新
-- 2017.08.03 更新
-- 2-RxSwift常见操作
-- 3-RxSwift中Subjects使用
-- 4-RxSwift的变换操作
-- 5-RxSwift资源释放
-- 6-RxSwift的UITableVIew使用
+- 2017.08.10 更新
+- 元组最佳实践
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

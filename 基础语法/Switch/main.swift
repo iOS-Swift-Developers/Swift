@@ -191,7 +191,7 @@ default:
 }
 
 /*
-区间和元祖匹配
+区间和元组匹配
 var num = 10
 switch num{
   case 1...9:
@@ -207,7 +207,7 @@ switch point{
 case (0, 0):
     print("坐标原点")
 case (1...10, 10...20):
-    print("坐标的X和Y在1~10之间") // 可以在元祖中再加上区间
+    print("坐标的X和Y在1~10之间") // 可以在元组中再加上区间
 default:
     print("Other")
 }

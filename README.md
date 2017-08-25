@@ -106,9 +106,17 @@ UIKit实战补充
 ===
 - 读取json文件&重载
 
+CacheSwift
+===
+- 缓存策略 - NSUserDefault
+- 缓存策略 - Plist
+- 缓存策略 - Archive
+
 ### 今日更新
-- 2017.08.16 更新
-- 读取json文件&重载
+- 2017.08.25 更新
+- 缓存策略 - NSUserDefault
+- 缓存策略 - Plist
+- 缓存策略 - Archive
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

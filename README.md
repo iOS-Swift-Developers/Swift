@@ -113,11 +113,13 @@ CacheSwift
 - 缓存策略 - Plist
 - 缓存策略 - Archive
 
+NetworkSwift
+===
+[- Network]()
+
 ### 今日更新
-- 2017.08.25 更新
-- 缓存策略 - NSUserDefault
-- 缓存策略 - Plist
-- 缓存策略 - Archive
+- 2017.08.30 更新
+- Network
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

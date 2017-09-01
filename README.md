@@ -109,8 +109,10 @@ UIKit实战补充
 
 Controllers
 ===
+[目录:](https://github.com/iOS-Swift-Developers/Swift/tree/master/Controllers)
+
 - UIImagePickerViewController(相机/相册/图库/视频)
-- 更新中......
+- UITabbarController
 
 CacheSwift
 ===
@@ -124,8 +126,8 @@ NetworkSwift
 [- Network](https://github.com/iOS-Swift-Developers/Swift/tree/master/NetworkSwift)
 
 ### 今日更新
-- 2017.08.31 今日更新
-- UIImagePickerViewController(相机/相册/图库/视频)
+- 2017.09.01 今日更新
+- UITabbarController
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 

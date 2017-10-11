@@ -52,6 +52,10 @@ Swift基本语法思维导图:
 - 闭包补充
 - 异常处理
 
+Swift更新日志:
+===
+- Swift4.0
+
 实战篇 - 直播项目 (UIKit 和 UIFoundation)
 ===
 实战项目搭建如下脑图:
@@ -126,8 +130,8 @@ NetworkSwift
 [- Network](https://github.com/iOS-Swift-Developers/Swift/tree/master/NetworkSwift)
 
 ### 今日更新
-- 2017.09.01 今日更新
-- UITabbarController
+- 2017.10.11 今日更新
+-  Swift4.0 新变化
 
 ## 更新中...
 ###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 
@@ -145,7 +149,7 @@ NetworkSwift
 
 ![微信公众号](http://blog26.com/images/wechatscan.gif)
 
-关于作者: [作者Github](https://github.com/XiaoHanGe) 喜欢记得Star噢!
+关于作者: [作者Github](https://github.com/XiaoHanGe) 喜欢记得Star噢! 欢迎关注[新浪微博!](http://weibo.com/hjq995)
 
 微信公众号每周推送新技术, [CSDN博客](http://blog.csdn.net/qq_31810357)欢迎关注交流!
  

@@ -54,7 +54,7 @@ Swift基本语法思维导图:
 
 Swift更新日志:
 ===
-- Swift4.0
+- [Swift4.0 新变化](https://github.com/iOS-Swift-Developers/Swift/tree/master/Swift%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 实战篇 - 直播项目 (UIKit 和 UIFoundation)
 ===

@@ -130,12 +130,16 @@ NetworkSwift
 ===
 [- Network](https://github.com/iOS-Swift-Developers/Swift/tree/master/NetworkSwift)
 
+Foundation
+===
+[-SortedArrayTest-I tested it on macOS, iOS, tvOS, and Linux.](https://github.com/iOS-Swift-Developers/Swift/tree/master/Foundation)
+
 ### 今日更新
-- 2017.10.11 今日更新
--  Swift4.0 新变化
+- 2017.12.19 今日更新
+- SortedArrayTest-数组排序归纳
 
 ## 更新中...
-###### Tips: UIKit 和 UIFoundation 部分接下来会通过 直播实战项目逐步学习! 
+###### Tips: UIKit 和 Foundation 部分接下来会通过 直播实战项目逐步学习! 
 
 更新步骤:
 

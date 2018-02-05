@@ -135,8 +135,8 @@ Foundation
 [-SortedArrayTest-I tested it on macOS, iOS, tvOS, and Linux.](https://github.com/iOS-Swift-Developers/Swift/tree/master/Foundation)
 
 ### 今日更新
-- 2017.12.19 今日更新
-- SortedArrayTest-数组排序归纳
+- 2018.02.05 今日更新
+- Swift-函数式-FlatMap用法
 
 ## 更新中...
 ###### Tips: UIKit 和 Foundation 部分接下来会通过 直播实战项目逐步学习! 

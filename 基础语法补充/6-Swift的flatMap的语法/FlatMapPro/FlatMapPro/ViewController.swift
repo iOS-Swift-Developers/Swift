@@ -52,6 +52,15 @@ class ViewController: UIViewController {
         print(simple)//[1, 2, 3, 4, 5, 6, 7, 8, 9]
 
         
+        // 在观察FlatMap方法时，我们可以发现其函数声明
+        // public func flatMap(_ transform: (Element) throws -> String?) rethrows -> [String]
+        // Roughly speaking, rethrows is for functions which do not throw errors "on their own", but only "forward" errors from their function parameters.
+        // 以下两种函数的声明:
+        // func throwCustomError(function:(String) throws -> ()) throws该声明代表，入参lambda会丢出异常，函数本身throwCustomError也会丢出异常，内部会对lambda的异常进行处理
+    
+        // func rethrowCustomError(function:(String) throws -> ()) rethrows 该声明代表仅有入参lambda会丢出异常，函数本身rethrowCustomError不会丢出异常，也不会捕获异常，仅仅转发丢出
+        
+        //结论:可以见比起Java的Throw更加细致，不知道是好还是坏，又加深了理解复杂度
         
         
         

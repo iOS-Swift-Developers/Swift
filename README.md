@@ -99,13 +99,18 @@ RxSwift使用教程
 ===
 [目录:](https://github.com/iOS-Swift-Developers/Swift/tree/master/RxSwift%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
 
-- 1-RxSwift初体验;
+- 1-RxSwift初体验
 - 2-RxSwift常见操作
 - 3-RxSwift中Subjects使用
 - 4-RxSwift的变换操作
 - 5-RxSwift资源释放
 - 6-RxSwift的UITableVIew使用
 
+MVVM指南
+===
+[目录:]()
+
+- 1.简单了解MVVM
 
 UIKit实战补充
 ===
@@ -135,8 +140,8 @@ Foundation
 [-SortedArrayTest-I tested it on macOS, iOS, tvOS, and Linux.](https://github.com/iOS-Swift-Developers/Swift/tree/master/Foundation)
 
 ### 今日更新
-- 2018.02.05 今日更新
-- Swift-函数式-FlatMap用法
+- 2018.02.24 今日更新
+- Swift-简单了解MVVM
 
 ## 更新中...
 ###### Tips: UIKit 和 Foundation 部分接下来会通过 直播实战项目逐步学习! 

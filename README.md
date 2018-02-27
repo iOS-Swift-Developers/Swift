@@ -52,6 +52,7 @@ Swift基本语法思维导图:
 - Swift4.0KVC和KVO
 - 闭包补充
 - 异常处理
+- Swift的defer几个简单的使用场景
 
 Swift更新日志:
 ===
@@ -140,8 +141,8 @@ Foundation
 [-SortedArrayTest-I tested it on macOS, iOS, tvOS, and Linux.](https://github.com/iOS-Swift-Developers/Swift/tree/master/Foundation)
 
 ### 今日更新
-- 2018.02.24 今日更新
-- Swift-简单了解MVVM
+- 2018.02.27 今日更新
+- Swift的defer几个简单的使用场景
 
 ## 更新中...
 ###### Tips: UIKit 和 Foundation 部分接下来会通过 直播实战项目逐步学习! 
